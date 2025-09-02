@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accessible Navigator"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Placeholder Image (simulating camera view) -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/sample_image"
+        android:scaleType="centerCrop"
+        android:contentDescription="Scanning placeholder"/>
+
+    <!-- OCR result (dummy text shown after scan) -->
+    <TextView
+        android:id="@+id/ocrTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scanning surroundings..."
+        android:padding="10dp"
+        android:background="#EFEFEF"
+        android:layout_marginBottom="20dp"
+        android:textSize="16sp"/>
+
+    <!-- Navigation to Maps Page -->
+    <Button
+        android:id="@+id/openMapsPageBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Nearby Bus Stop"/>
+
+</LinearLayout>
