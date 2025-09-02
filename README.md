@@ -48,4 +48,6 @@ After 5 seconds → Displays "Bus Stop: Central Station" + speaks aloud.
 
 Maps Screen – Placeholder map image + text "Nearby Bus Stop: City Center".
 
-📷 Screenshots
+📷 Demo
+<img width="407" height="773" alt="Screenshot 2025-09-02 182349" src="https://github.com/user-attachments/assets/c07145ee-ffb3-481b-a7f8-eaacbc6fe4c2" />
+
